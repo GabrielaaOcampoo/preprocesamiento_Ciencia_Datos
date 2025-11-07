@@ -1,0 +1,41 @@
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración de VS Code
+.vscode/
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+ENV/
+.env
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Cachés
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local
+*.env
+
+# Archivos grandes (opcional)
+# data/
+# *.csv
+# *.xlsx
+
+# Directorios de construcción
+build/
+dist/
+*.egg-info/
