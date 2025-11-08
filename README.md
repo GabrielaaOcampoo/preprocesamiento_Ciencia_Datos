@@ -11,25 +11,30 @@ Este proyecto implementa técnicas de preprocesamiento de datos utilizando Pytho
 - Transformación de tipos de datos
 
 ## 📁 Estructura del Proyecto
+
 ```
-PREPROCESAMIENTO_CIENCIA_DATOS/          # 📂 Carpeta raíz del proyecto principal
+PREPROCESAMIENTO_CIENCIA_DATOS/
 │
-├── .github/                             # ⚙️ Configuración de automatización con GitHub Actions
-│   └── workflows/                       # Contiene los flujos de trabajo (CI/CD)
-│       └── ci.yml                       # Archivo YAML con pruebas automáticas y análisis del código
+├── .github/
+│   └── workflows/
+│       └── ci.yml          # Automatización CI/CD
 │
-├── data/                                # 📊 Carpeta para almacenar datos utilizados en el proyecto
-│   ├── raw/                             # Datos originales sin procesar (input)
-│   └── processed/                       # Datos transformados o limpios (output)
+├── data/
+│   ├── raw/                # Datos originales
+│   └── processed/          # Datos procesados
 │
-├── .gitignore                           # 🚫 Define qué archivos o carpetas no se suben a GitHub (ej. venv/)
-├── README.md                            # 📘 Descripción general del proyecto: objetivo, instalación y uso
-├── DOCUMENTACION.md                     # 🧾 Documentación técnica con desarrollo, análisis y resultados
-├── preprocesamiento.py                  # 🧠 Script principal del módulo de preprocesamiento de datos
-├── requirements.txt                     # 📦 Lista de librerías necesarias para ejecutar el proyecto
-└── venv/                                # 💻 Entorno virtual local (NO se sube a GitHub)
-
-
+├── images/                 # Capturas para la documentación
+│   ├── git_push.png
+│   ├── pull_request.png
+│   ├── github_actions.png
+│   └── estructura_proyecto.png
+│
+├── .gitignore
+├── README.md
+├── DOCUMENTACION.md
+├── preprocesamiento.py     # Módulo de preprocesamiento
+├── requirements.txt
+└── venv/                   # Solo local, no se sube
 
 ```
 
