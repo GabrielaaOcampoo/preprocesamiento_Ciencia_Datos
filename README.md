@@ -12,23 +12,28 @@ Este proyecto implementa técnicas de preprocesamiento de datos utilizando Pytho
 
 ## 📁 Estructura del Proyecto
 ```
-preprocesamiento-ciencia-datos/
+preprocesamiento_Ciencia_Datos/
 │
-├── README.md
-├── .gitignore
-├── DOCUMENTACION.md
-├── preprocesamiento.py
-├── requirements.txt
+├── 📁 venv/                         # Entorno virtual (NO se sube al repositorio)
 │
-├── data/
-│   ├── raw/          # Datos sin procesar
-│   └── processed/    # Datos procesados
+├── 📁 data/                         # Carpeta para datasets (entrada y salida)
+│   ├── dataset_original.csv
+│   └── dataset_procesado.csv
 │
-├── notebooks/
-│   └── ejemplos/     # Jupyter notebooks de ejemplo
+├── 📁 docs/                         # Documentos e informes del proyecto
+│   └── Documentación del Proyecto_ Preprocesamiento de Datos.docx
 │
-└── tests/
-    └── test_preprocesamiento.py
+├── 📁 src/                          # Código fuente principal
+│   ├── __init__.py
+│   └── preprocesamiento.py          # Módulo de preprocesamiento de datos
+│
+├── 📁 notebooks/                    # (Opcional) Cuadernos Jupyter de pruebas o análisis
+│   └── prueba_pipeline.ipynb
+│
+├── .gitignore                       # Archivos/carpetas a ignorar (venv, __pycache__, etc.)
+├── requirements.txt                 # Librerías necesarias del proyecto
+├── README.md                        # Descripción del proyecto para GitHub
+
 ```
 
 ## 🛠️ Tecnologías
