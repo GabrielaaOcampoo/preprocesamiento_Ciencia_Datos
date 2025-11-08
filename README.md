@@ -43,6 +43,3 @@ PREPROCESAMIENTO_CIENCIA_DATOS/          # 📂 Carpeta raíz del proyecto princ
 Gabriela Ocampo
 
 Carrera: Ciencia de Datos e Inteligencia Artificial
-
-
-ional de Chimborazo
